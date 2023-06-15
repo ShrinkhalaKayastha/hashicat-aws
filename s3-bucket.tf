@@ -4,5 +4,5 @@ module "s3-bucket" {
 }
 
 variable "bucket_prefix" {
-  description = "shrinkhalakayastha"
+  default = "shrinkhalakayastha"
 }
